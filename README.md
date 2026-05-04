@@ -110,7 +110,7 @@ The best model (XGBoost) was interpreted using SHAP TreeExplainer:
 
 ## 📄 License
 
-This project is released under STRICT LICENSE - ALL RIGHTS RESERVED.
+This project is released under ALL RIGHTS RESERVED LICENSE. View (Portfolio) purpose only.
 Dataset source: [Moro et al., 2014] — UCI Machine Learning Repository.
 
 ***
