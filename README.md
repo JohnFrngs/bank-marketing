@@ -105,35 +105,6 @@ The best model (XGBoost) was interpreted using SHAP TreeExplainer:
 - **Prior campaign success** (`poutcome_success`) is a strong positive signal — returning successful contacts should be prioritized.
 - **XGBoost** achieves ROC AUC ≈ 0.95, excellent performance for highly imbalanced marketing data.
 
-***
-
-## 🛠️ Requirements
-
-```
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-xgboost
-shap
-```
-
-Install with:
-
-```bash
-pip install -r requirements.txt
-```
-
-***
-
-## 🚀 How to Run
-
-1. Clone the repository and place `bank-additional-full.csv` in `data/raw/`.
-2. Open `notebooks/complete_analysis.ipynb` in Jupyter or JupyterLab.
-3. Run all cells in order — the notebook will generate the processed datasets automatically.
-
-> **Note:** SHAP force plots require `shap.initjs()` in classic Jupyter Notebook. In JupyterLab or VS Code, use `matplotlib=True` or `shap.plots.waterfall()` instead.
 
 ***
 
